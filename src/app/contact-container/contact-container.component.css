@@ -1,0 +1,12 @@
+/* Column container */
+.contact-container {  
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .contact-container {   
+    display: block;
+  }
+}

@@ -1,0 +1,36 @@
+/* Main column */
+.about {
+  background-color: white;
+  padding: 20px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: headTitle; }
+.item3 { grid-area: emptyCell; }
+.item4 { grid-area: left; }
+.item5 { grid-area: right; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'headTitle emptyCell'
+    'left right'
+    'footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 96%;
+  padding: 2%;
+}

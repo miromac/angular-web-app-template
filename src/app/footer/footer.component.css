@@ -1,0 +1,20 @@
+/* Footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: #264D73;
+  background: #ddd;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #264D73;
+  font-size: large;
+}
+
+.footer ul li{
+  list-style-type:none;
+}
